@@ -1,8 +1,10 @@
-$('.grid').masonry({
-    itemSelector: '.grid-item',
-    columnWidth: '.grid-item',
-    "gutter": 25,
-    isFitWidth: true
+$(window).on('load', function () {
+    $('.grid').masonry({
+        itemSelector: '.grid-item',
+        columnWidth: '.grid-item',
+        "gutter": 25,
+        isFitWidth: true
+    });
 });
 
 const loadMoreButton = document.querySelector('.masonry-load-more');
