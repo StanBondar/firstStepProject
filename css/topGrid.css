@@ -1,0 +1,51 @@
+.our-services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 374px;
+}
+
+.grid-cell {
+    background-color: #1c2a33;
+    border-top: 7px solid #18cfab;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-cell-even {
+    background-color: #18cfab;
+    border-top: 7px solid #ffffff;
+}
+
+.cell-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Montserrat, system-ui;
+    font-weight: 700;
+    color: #18cfab;
+}
+
+.grid-cell-even > .cell-title {
+    color: #ffffff;
+}
+
+.cell-1 > .icon {
+    width: 58px;
+    margin-bottom: 48px;
+}
+
+.cell-2 > .icon {
+    width: 93px;
+    margin-bottom: 59px;
+}
+
+.cell-3 > .icon {
+    width: 60px;
+    margin-bottom: 49px;
+}
+
+.cell-4 > .icon {
+    width: 99px;
+    margin-bottom: 59px;
+}

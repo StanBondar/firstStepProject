@@ -1,0 +1,27 @@
+.bottom {
+    background-color: #22353f;
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-wrapper {
+    max-width: 1160px;
+}
+
+.bottom-wrapper > h2 {
+    font-size: 14px;
+    font-family: Montserrat, system-ui;
+    font-weight: 300;
+    color: #aeaeae;
+}
+
+.bottom-wrapper > h2 > span {
+    color: #18cfab;
+}
+
+.bottom-wrapper > h2 > span > span {
+    color: #18cfab;
+    text-transform: capitalize;
+}

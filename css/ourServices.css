@@ -1,0 +1,93 @@
+.our-services {
+    display: grid;
+    grid-template-columns: 1fr 1160px 1fr;
+    grid-template-rows: 221px 236px 101px;
+    grid-template-areas: 'lside top rside' 'lside middle rside' 'lside bottom rside';
+}
+
+.services-title-wrapper {
+    grid-area: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-title {
+    color: #4e4e4e;
+    font-family: Montserrat, system-ui;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.services-tabs-wrapper {
+    grid-area: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.our-services-tabs {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.tabs-title {
+    width: 193px;
+    line-height: 73px;
+    text-align: center;
+    background-color: #f8fcfe;
+    border: 1px solid #ebebeb;
+    font-size: 16px;
+    font-family: Montserrat, system-ui;
+    color: #838484;
+    text-transform: capitalize;
+}
+
+.tabs-title.active {
+    border: none;
+    background-color: #18cfab;
+    color: #ffffff;
+    position: relative;
+}
+
+.tabs-title.active::after {
+    content: url('../img/icons/triangle.png');
+    position: absolute;
+    width: 24px;
+    top: 45px;
+    left: calc(50% - 12px);
+}
+
+.service-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.service-image {
+    display: block;
+    height: 139px;
+}
+
+.service-description {
+    width: 926px;
+    text-align: justify;
+    font-size: 14px;
+    font-family: Montserrat, system-ui;
+    font-weight: 300;
+    margin: 0;
+}
+
+.inactive {
+    display: none;
+}
+
+.tabs-title:hover {
+    cursor: pointer;
+}

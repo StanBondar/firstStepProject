@@ -1,0 +1,151 @@
+.what-people-say {
+    background-image: url("../img/SectionsBackground/section-3.jpg");
+    background-size: 100%;
+    background-position: top;
+    /*background-attachment: fixed;*/
+    height: 853px;
+    display: grid;
+    grid-template-columns: 1fr 1160px 1fr;
+    grid-template-rows: 237px 30px 132px 353px 100px;
+    grid-template-areas: 'lside topCenter rside' 'lside image rside' 'lside description rside' 'lside carousel rside' 'lside bottom rside';
+}
+
+.what-say-title {
+    color: #ffffff;
+}
+
+.what-people-say-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: topCenter;
+}
+
+.quotes-img {
+    grid-area: image;
+    justify-self: center;
+}
+
+.what-people-say-description {
+    font-family: Montserrat, system-ui;
+    font-weight: 300;
+    font-size: 16px;
+    color: #bbbbbb;
+    grid-area: description;
+    align-self: center;
+    justify-self: center;
+    width: 1098px;
+    text-align: center;
+}
+
+.what-say-pesons-container {
+    grid-area: carousel;
+    justify-self: center;
+    align-self: center;
+    height: 353px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.what-say-person-title {
+    font-family: Montserrat, system-ui;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+}
+
+.what-say-person-name {
+    font-weight: 700;
+    font-size: 16px;
+    color: #18cfab;
+    text-transform: uppercase;
+}
+
+.what-say-person-icon-cover {
+    width: 164px;
+    height: 163px;
+    background-image: url(../img/whatPeopleSay/iconBackground.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-say-person-icon {
+    width: 143px;
+    height: 142px;
+    border: 4px solid #18cfab;
+    border-radius: 143px;
+}
+
+.what-say-person-carousel {
+    width: 482px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-cover {
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+}
+
+.person-carousel-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31px;
+    height: 31px;
+    border: 1px solid #b9b9ba;
+    color: #b9b9ba;
+}
+
+.person-carousel-button:hover {
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #18cfab;
+}
+
+.person-carousel-icon-cover {
+    width: 68px;
+    height: 68px;
+    background-image: url(../img/whatPeopleSay/iconBackground.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.carousel-icon {
+    width: 61px;
+    height: 61px;
+    border-radius: 61px;
+}
+
+.active-icon-cover {
+    position: relative;
+    bottom: 10px;
+    animation: setActiveIcon 0.3s;
+}
+
+@keyframes setActiveIcon {
+    0% {
+        bottom: 0px
+    }
+    50% {
+        bottom: 5px
+    }
+    100% {
+        bottom: 10px
+    }
+}
+
+.active-icon {
+    border: 1px solid #18cfab;
+}

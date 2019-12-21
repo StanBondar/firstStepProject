@@ -1,0 +1,42 @@
+.main-container {
+    width: 100vw;
+}
+
+.everything-ready {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/SectionsBackground/section-2.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 476px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ready-wrapper {
+    width: 1160px;
+    display: flex;
+    flex-direction: column;
+    height: 221px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ready-title-cover {
+    text-align: center;
+    font-family: Montserrat, system-ui;
+}
+
+.ready-title-cover > h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #18cfab;
+    text-transform: uppercase;
+}
+
+.ready-title-cover > h2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #c1c1c1;
+    text-transform: capitalize;
+}

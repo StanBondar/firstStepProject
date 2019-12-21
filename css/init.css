@@ -1,0 +1,69 @@
+@import "../slick-1.8.1/slick/slick.css";
+@import "loadingAnimation.css";
+@import "normalize.css";
+@import "header.css";
+@import "topGrid.css";
+@import "everythingReady.css";
+@import "ourAmazingWork.css";
+@import "breakingNews.css";
+@import "ourServices.css";
+@import "whatPeopleSay.css";
+@import "galleyOfBestImages.css";
+@import "footer.css";
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /* CSS variables*/
+}
+
+/*Global classes*/
+
+.btn {
+    width: 166px;
+    height: 61px;
+    font-size: 13px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: #18cfab;
+    font-family: Montserrat, system-ui;
+    font-weight: 700;
+    box-shadow: 0 -4px 0px #ffffff;
+    transition: background-color 0.3s ease-in;
+}
+
+.btn:hover {
+    background-color: #00cbf6;
+}
+
+.load-more-button {
+    width: 165px;
+    height: 60px;
+    font-size: 14px;
+    font-family: Montserrat, system-ui;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: #18cfab;
+    line-height: 20px;
+    vertical-align: center;
+    transition: background-color 0.3s ease-in;
+    outline: none;
+}
+
+.load-more-button:hover {
+    background-color: #00cbf6;
+}
+
+.fa-plus {
+    font-size: 14px;
+}
+
