@@ -191,3 +191,8 @@ const loadMoreDelay = () => {
 
 galleryTabs.addEventListener('click', switchTab);
 loadMoreBtn.addEventListener('click', loadMoreDelay);
+
+document.querySelector('.news-gallery').addEventListener('click', event=>{
+    event.preventDefault();
+});
+;
